@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Solomon Burt
+Sudent Email:  sdburt@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+As I preparing for the exam this and reread all the chapters we went over in the textbook leading up to our current unit, the unit tests and classes chapter was fresh in my mind, therefore I decided to encasualte the unibrow.py code into a main() function, including the if '__name__ == "__main":' format so that the function is execuetd whenever the script is directly run. For the pandaslib.py, I mainly relied on the solution due to time crunch, however, it was very easy to understand due to the recency in us applying these concepts, such as directly in the exam we took today.
