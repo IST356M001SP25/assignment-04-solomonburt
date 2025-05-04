@@ -23,4 +23,10 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
-As I preparing for the exam this and reread all the chapters we went over in the textbook leading up to our current unit, the unit tests and classes chapter was fresh in my mind, therefore I decided to encasualte the unibrow.py code into a main() function, including the if '__name__ == "__main":' format so that the function is execuetd whenever the script is directly run. For the pandaslib.py, I mainly relied on the solution due to time crunch, however, it was very easy to understand due to the recency in us applying these concepts, such as directly in the exam we took today.
+While working on the UniBrow assignment, I made a conscious decision to structure the unibrow.py application by encapsulating the main logic within a main() function and utilizing the if __name__ == "__main__": block. This approach, recently reinforced by our unit testing and classes discussions, allows for better modularity and ensures the Streamlit application runs when the script is executed directly.
+
+Regarding pandaslib.py, due to time constraints, I primarily reviewed the provided solution. However, the underlying Pandas operations, such as reading different file formats (pd.read_excel, pd.read_csv, pd.read_json), selecting columns using bracket notation on DataFrames, and applying boolean indexing for filtering, felt familiar due to their recent application in our exam.
+
+Specifically, I recognize that while I understand the concept of filtering DataFrames based on text columns, I didn't independently implement the Streamlit widgets for selecting the target column and its unique values. This is an area where I need more practice. My next step will be to revisit the Streamlit documentation on st.selectbox or st.multiselect and experiment with dynamically populating the options based on the unique values of a chosen DataFrame column. This will help solidify my understanding of how to create interactive filtering mechanisms in Streamlit.
+
+Furthermore, while I grasped the use of .describe() for numerical columns, I would benefit from exploring ways to present this statistical information more effectively within the Streamlit application, perhaps by using st.dataframe() or visualizing key statistics with libraries like Matplotlib or Seaborn. This would enhance the user experience of the UniBrow application.
